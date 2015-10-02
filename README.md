@@ -1,8 +1,10 @@
 # Toy Spelling Corrector [![Build Status][travis-svg]][travis-url] [![Coverage Status][coveralls-svg]][coveralls-url]
 
-A rudimentary spelling corrector based on [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html) by Peter Norvig. This is a direct port from the Python version with no optimizations or enhancements. The original Python version is 22 lines of code and the Golang version is 88 lines of code. 
+A rudimentary spelling corrector based on [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html) by Peter Norvig. This is a direct port from the Python version with no optimizations or enhancements. Pull requests are welcome but may not be merged into the master branch. It would be interesting to see this project go both ways, meaning as concise as possible (fewest lines) and as performent as possible (fastest execution).
 
-Pull requests are welcome but may not be merged into the master branch. It would be interesting to see this project go both ways, meaning as concise as possible (fewest lines) and as performent as possible (fastest execution).
+The original Python version is 22 lines of code and the Golang version is 88 lines of code. 
+
+All credit goes to [Peter Norvig](http://norvig.com/) for his very educational [post](http://norvig.com/spell-correct.html) that inspired me to try my hand at porting his Python code to Golang. At the bottom of his post you can find links to other ports in many more programming languages.
 
 ### Usage
 
@@ -40,10 +42,6 @@ $ python spell_test.py
 {'bad': 68, 'bias': None, 'unknown': 15, 'secs': 22, 'pct': 74, 'n': 270}
 {'bad': 130, 'bias': None, 'unknown': 43, 'secs': 40, 'pct': 67, 'n': 400}
 ```
-
-### Credit
-
-All credit goes to [Peter Norvig](http://norvig.com/) for his very educational [post](http://norvig.com/spell-correct.html) that inspired me to try my hand at porting this code.
 
 [travis-url]: https://travis-ci.org/montanaflynn/toy-spelling-corrector
 [travis-svg]: https://img.shields.io/travis/montanaflynn/toy-spelling-corrector.svg
