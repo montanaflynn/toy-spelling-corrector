@@ -87,13 +87,12 @@ func (s *ToySpellcheck) known(words []string) []string {
 // a given word, falls back to giving the same word if
 // none can be found
 func (s *ToySpellcheck) Correct(word string) string {
-
 	if _, found := s.words[word]; found {
 		return word
 	}
 
-	firstRounnd := s.known(s.edits1(word))
-	if result := s.bestCandidate(firstRounnd); result != "" {
+	firstRound := s.known(s.edits1(word))
+	if result := s.bestCandidate(firstRound); result != "" {
 		return result
 	}
 
