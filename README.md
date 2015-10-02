@@ -26,7 +26,7 @@ python spell_test.py
 
 ### Benchmarks
 
-On my low powered laptop running Ubuntu 15.04:
+On an old single core laptop running Ubuntu 15.04, Golang 1.4.2 and Python 2.7.9:
 
 ##### Golang
 
@@ -37,6 +37,7 @@ n: 400, bad: 130, unknown: 43, pct: 67, secs: 24.168009463s
 ```
 
 ##### Python
+
 ```
 $ python spell_test.py 
 {'bad': 68, 'bias': None, 'unknown': 15, 'secs': 22, 'pct': 74, 'n': 270}
