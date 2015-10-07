@@ -1,6 +1,6 @@
 # Toy Spelling Corrector [![Build Status][travis-svg]][travis-url] [![Coverage Status][coveralls-svg]][coveralls-url]
 
-A rudimentary spelling corrector based on [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html) by Peter Norvig. This is a direct port from the Python version with no optimizations or enhancements. Pull requests are welcome but may not be merged into the master branch. It would be interesting to see this project go both ways, meaning as concise as possible (fewest lines) and as performent as possible (fastest execution).
+A rudimentary spelling corrector based on [How to Write a Spelling Corrector](http://norvig.com/spell-correct.html) by Peter Norvig. This is a direct port from the Python version with no optimizations or enhancements. Pull requests are welcome but may not be merged into the master branch. It would be interesting to see this project go both ways, meaning as concise as possible (fewest lines) and as performant as possible (fastest execution).
 
 The original Python version is 22 lines of code and the Golang version is 88 lines of code. 
 
